@@ -2,7 +2,7 @@
 
 ## Status
 
-Draft placeholder. Visual and interaction design standards have not been defined yet.
+Initial Modern Clean design-token system implemented.
 
 ## Purpose
 
@@ -10,13 +10,17 @@ Capture the design language, interface patterns, accessibility expectations, and
 
 ## To Be Defined
 
-- Brand attributes
-- Color palette
-- Typography
-- Layout conventions
-- Component behavior
-- Accessibility standards
-- Responsive behavior
+## Implemented
+
+- Semantic CSS tokens for background, surface, border, text, primary, and status colors
+- Light and dark mode support
+- Density support: comfortable, compact, dense
+- App shell, sidebar, topbar, page shell
+- Buttons, badges, metrics, tables, evidence and calculation panels
+
+## Direction
+
+The UI should remain calm, precise, operational, and information-first. Avoid generic dashboard clutter and decorative charts.
 
 ## Notes
 

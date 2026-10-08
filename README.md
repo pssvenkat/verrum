@@ -2,18 +2,19 @@
 
 VERRUM is currently in product-definition mode.
 
-This repository is the long-term source of truth for product intent, architecture, engineering decisions, implementation state, and future handoffs. Application code has not been added yet.
+This repository is the long-term source of truth for product intent, architecture, engineering decisions, implementation state, and future handoffs.
 
 ## Start Here
 
 Read these files first in a new development session:
 
 1. `CLAUDE.md`
-2. `docs/PROJECT_STATE.md`
-3. `docs/IMPLEMENTATION_PLAN.md`
-4. `docs/DECISION_LOG.md`
+2. `docs/MASTER_APP_BUILD_PROMPT.md`
+3. `docs/PROJECT_STATE.md`
+4. `docs/IMPLEMENTATION_PLAN.md`
+5. `docs/DECISION_LOG.md`
 
-No application code has been added yet.
+The master app-build prompt is preserved in `docs/MASTER_APP_BUILD_PROMPT.md`.
 
 ## Repository Layout
 
@@ -26,6 +27,28 @@ No application code has been added yet.
 └── .gitignore
 ```
 
+## Local Setup
+
+```bash
+npm install
+npm run dev
+```
+
+Useful checks:
+
+```bash
+npm run typecheck
+npm run lint
+npm test
+npm run build
+```
+
+Optional local PostgreSQL:
+
+```bash
+docker compose up -d
+```
+
 ## Current Status
 
-The project memory and documentation scaffold has been created. The next step is to add the master app-build prompt or define the product specification before implementation begins.
+The project memory scaffold, master app-build prompt, Next.js foundation, Modern Clean token system, Drizzle schema, demo tenant data, deterministic telemetry calculations, Idle Agent, and first evidence-backed decision slice are present.

@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --background: 210 20% 98%;
+  --foreground: 215 25% 15%;
+  --surface: 0 0% 100%;
+  --surface-raised: 0 0% 100%;
+  --surface-muted: 210 20% 96%;
+  --border: 214 19% 88%;
+  --border-strong: 214 14% 72%;
+  --primary: 154 47% 31%;
+  --primary-foreground: 0 0% 100%;
+  --success: 150 54% 34%;
+  --warning: 38 88% 46%;
+  --danger: 0 70% 48%;
+  --info: 209 72% 45%;
+  --muted: 214 18% 92%;
+  --muted-foreground: 215 13% 42%;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: 216 24% 8%;
+  --foreground: 210 20% 92%;
+  --surface: 216 22% 11%;
+  --surface-raised: 216 20% 14%;
+  --surface-muted: 216 18% 17%;
+  --border: 216 14% 22%;
+  --border-strong: 216 12% 34%;
+  --primary: 154 43% 48%;
+  --primary-foreground: 155 38% 9%;
+  --success: 150 48% 44%;
+  --warning: 39 86% 56%;
+  --danger: 0 72% 58%;
+  --info: 207 74% 60%;
+  --muted: 216 16% 18%;
+  --muted-foreground: 214 12% 68%;
+}
+
+[data-density="compact"] {
+  --density-row: 2.25rem;
+  --density-pad: 0.625rem;
+}
+
+[data-density="comfortable"] {
+  --density-row: 2.75rem;
+  --density-pad: 0.875rem;
+}
+
+[data-density="dense"] {
+  --density-row: 2rem;
+  --density-pad: 0.5rem;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  background: hsl(var(--background));
+}
+
+body {
+  min-height: 100vh;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}

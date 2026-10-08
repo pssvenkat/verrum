@@ -8,22 +8,24 @@ VERRUM is being initialized as a durable software project. The repository must a
 
 ## Current Phase
 
-Product definition. Do not build the application until the master app-build prompt, product specification, and implementation plan are intentionally updated.
+Application foundation. Build according to the master app-build prompt and keep project memory synchronized as implementation progresses.
 
 ## Required Reading Order
 
 Before making project changes, read:
 
 1. `docs/PROJECT_STATE.md`
-2. `docs/PRODUCT_SPEC.md`
-3. `docs/ARCHITECTURE.md`
-4. `docs/IMPLEMENTATION_PLAN.md`
-5. `docs/DECISION_LOG.md`
-6. Relevant files under `.claude/rules/`
+2. `docs/MASTER_APP_BUILD_PROMPT.md`
+3. `docs/PRODUCT_SPEC.md`
+4. `docs/ARCHITECTURE.md`
+5. `docs/IMPLEMENTATION_PLAN.md`
+6. `docs/DECISION_LOG.md`
+7. Relevant files under `.claude/rules/`
 
 ## Working Rules
 
 - Treat repository documents as project memory.
+- Treat `docs/MASTER_APP_BUILD_PROMPT.md` as the governing product and engineering build brief.
 - Update `docs/PROJECT_STATE.md` whenever meaningful progress is made.
 - Record non-trivial product or technical decisions in `docs/DECISION_LOG.md`.
 - Keep documentation synchronized with implementation as code is added.

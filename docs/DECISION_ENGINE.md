@@ -2,7 +2,7 @@
 
 ## Status
 
-Draft placeholder. Decision logic has not been defined yet.
+Initial deterministic Idle Agent implemented in `src/domain/decisions/idle-agent.ts`.
 
 ## Purpose
 
@@ -10,13 +10,16 @@ Describe any rule-based, algorithmic, AI-assisted, scoring, recommendation, rank
 
 ## To Be Defined
 
-- Decision inputs
-- Decision outputs
-- Rules or models
-- Human override paths
-- Audit requirements
-- Evaluation criteria
+## Initial Agent
+
+Idle Agent:
+
+- Inputs: machine-day facts, idle threshold, configured idle cost
+- Output: idle review decision
+- Evidence: idle hours, covered days, threshold, source coverage, machine label
+- Calculation: measured idle hours multiplied by configured idle cost
+- Versioned with agent and rule version strings
 
 ## Notes
 
-If VERRUM does not require a decision engine, this document should explicitly say so once product requirements are clear.
+Agents are deterministic decision engines with optional future AI explanation. LLMs must not alter readings, calculations, thresholds, or financial figures.

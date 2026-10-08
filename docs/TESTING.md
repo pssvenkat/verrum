@@ -2,7 +2,7 @@
 
 ## Status
 
-Draft placeholder. Test strategy has not been selected yet.
+Initial Vitest coverage added for telemetry counter calculations and Idle Agent decision generation.
 
 ## Purpose
 
@@ -10,13 +10,19 @@ Define how VERRUM will be verified as implementation begins.
 
 ## To Be Defined
 
-- Unit testing approach
-- Integration testing approach
-- End-to-end testing approach
-- Manual QA expectations
-- Accessibility checks
-- Performance checks
-- Release acceptance criteria
+## Current Checks
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm test`
+- `npm run build`
+
+## Current Unit Coverage
+
+- Cumulative counter delta calculations
+- Backward counter rejection
+- Missing reading handling
+- Idle decision generation with evidence and source payload IDs
 
 ## Principle
 

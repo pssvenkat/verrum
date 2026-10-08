@@ -19,6 +19,7 @@ build/
 .next/
 out/
 coverage/
+*.tsbuildinfo
 
 # Python tooling, if used later
 __pycache__/

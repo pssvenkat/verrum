@@ -2,7 +2,7 @@
 
 ## Status
 
-Project-memory scaffold complete; application implementation has not started.
+Application foundation and first vertical slice are underway.
 
 ## Phase 0: Repository Memory
 
@@ -12,6 +12,7 @@ Project-memory scaffold complete; application implementation has not started.
 - [x] Add Claude rule files.
 - [x] Initialize Git repository.
 - [x] Remove original bootstrap prompt at user's request.
+- [x] Add master app-build prompt.
 
 ## Phase 1: Product Definition
 
@@ -19,18 +20,27 @@ Project-memory scaffold complete; application implementation has not started.
 - [ ] Define target users.
 - [ ] Define primary workflows.
 - [ ] Define release scope.
-- [ ] Add or author the master app-build prompt.
-- [ ] Decide initial technology stack.
+- [x] Add or author the master app-build prompt.
+- [x] Decide initial technology stack.
+- [x] Create Next.js / TypeScript application foundation.
+- [x] Create Modern Clean semantic token system.
+- [x] Create initial Drizzle PostgreSQL schema.
+- [x] Create deterministic telemetry calculation layer.
+- [x] Create initial Idle Agent.
+- [x] Create demo overview, machines, telemetry, decisions, integrations, admin ingestion, login, and appearance screens.
 
 ## Phase 2: Technical Foundation
 
-- [ ] Create application skeleton.
-- [ ] Add development tooling.
-- [ ] Add initial tests.
-- [ ] Document local setup.
+- [x] Create application skeleton.
+- [x] Add development tooling.
+- [x] Add initial tests.
+- [x] Document local setup.
 
 ## Phase 3: First Product Build
 
-- [ ] Build the first scoped workflow.
-- [ ] Verify with tests and manual review.
-- [ ] Update project state and decision log.
+- [x] Build the first scoped workflow.
+- [x] Verify with automated checks.
+- [x] Update project state and decision log.
+- [ ] Wire database persistence and migrations.
+- [ ] Replace demo in-memory data with seeded database data.
+- [ ] Add production authentication implementation.
