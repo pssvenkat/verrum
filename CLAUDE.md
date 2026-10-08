@@ -8,7 +8,7 @@ VERRUM is being initialized as a durable software project. The repository must a
 
 ## Current Phase
 
-Repository bootstrap only. Do not build the application until the product specification and implementation plan are intentionally updated.
+Product definition. Do not build the application until the master app-build prompt, product specification, and implementation plan are intentionally updated.
 
 ## Required Reading Order
 
@@ -30,8 +30,6 @@ Before making project changes, read:
 - Preserve existing user-created files unless the user explicitly approves changing them.
 - Do not rely on conversation history as permanent project state.
 
-## Bootstrap Source
+## Bootstrap Note
 
-The bootstrap prompt that created this structure is preserved at:
-
-`1.VERRUM_CLAUDE_BOOTSTRAP_PROMPT.md`
+The original bootstrap prompt was removed from the repository at the user's request. The durable project memory now lives in `CLAUDE.md`, `docs/`, and `.claude/rules/`.

@@ -2,15 +2,16 @@
 
 ## Status
 
-Bootstrap complete; application implementation has not started.
+Project-memory scaffold complete; application implementation has not started.
 
 ## Phase 0: Repository Memory
 
-- [x] Preserve original bootstrap prompt.
+- [x] Create project-memory scaffold.
 - [x] Create project documentation scaffold.
 - [x] Add Claude project entry point.
 - [x] Add Claude rule files.
 - [x] Initialize Git repository.
+- [x] Remove original bootstrap prompt at user's request.
 
 ## Phase 1: Product Definition
 
@@ -18,6 +19,7 @@ Bootstrap complete; application implementation has not started.
 - [ ] Define target users.
 - [ ] Define primary workflows.
 - [ ] Define release scope.
+- [ ] Add or author the master app-build prompt.
 - [ ] Decide initial technology stack.
 
 ## Phase 2: Technical Foundation

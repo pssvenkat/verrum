@@ -1,6 +1,6 @@
 # VERRUM
 
-VERRUM is currently in repository-bootstrap mode.
+VERRUM is currently in product-definition mode.
 
 This repository is the long-term source of truth for product intent, architecture, engineering decisions, implementation state, and future handoffs. Application code has not been added yet.
 
@@ -13,7 +13,7 @@ Read these files first in a new development session:
 3. `docs/IMPLEMENTATION_PLAN.md`
 4. `docs/DECISION_LOG.md`
 
-The original bootstrap prompt is preserved in `1.VERRUM_CLAUDE_BOOTSTRAP_PROMPT.md`.
+No application code has been added yet.
 
 ## Repository Layout
 
@@ -23,9 +23,9 @@ The original bootstrap prompt is preserved in `1.VERRUM_CLAUDE_BOOTSTRAP_PROMPT.
 ├── README.md
 ├── docs/
 ├── .claude/rules/
-└── 1.VERRUM_CLAUDE_BOOTSTRAP_PROMPT.md
+└── .gitignore
 ```
 
 ## Current Status
 
-The project memory and documentation scaffold has been created. The next step is to define the product specification before implementation begins.
+The project memory and documentation scaffold has been created. The next step is to add the master app-build prompt or define the product specification before implementation begins.
