@@ -22,6 +22,7 @@ Application foundation and first vertical slice.
 - Added `docs/MASTER_APP_BUILD_PROMPT.md`.
 - Added Next.js, TypeScript, Tailwind, Drizzle, Vitest, and Docker Compose foundation.
 - Added Modern Clean semantic theme tokens with light, dark, and density support.
+- Installed `design-taste-frontend` under `.agents/skills/` for future frontend design guidance.
 - Added demo tenant data with 35 machines.
 - Added raw telemetry, canonical telemetry, machine-day facts, Idle Agent, and evidence-backed decisions.
 - Added initial UI screens for landing, login, overview, machines, machine detail, telemetry, decisions, decision detail, integrations, admin ingestion, and appearance settings.
